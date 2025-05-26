@@ -1,0 +1,22 @@
+dataset: "ogbl-collab"
+save_path: "split_data/ogbl-collab"
+data_path: None
+backbone: "GCNConv"
+edge_dim: 1
+input_dim: 128
+hidden_dim: 32
+output_dim: 16
+degree_dim: 64
+time_dim: 32
+tss_dim: 32
+num_layers: 2
+dropout: 0.0
+learning_rate: 0.01
+weight_decay: 5e-4
+train_negative_sampling_ratio: 1
+test_negative_sampling_ratio: 0.01
+span: 5
+
+
+
+

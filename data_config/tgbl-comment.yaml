@@ -1,0 +1,23 @@
+dataset: "tgbl-comment"
+save_path: "split_data/tgbl-comment"
+data_path: None
+backbone: "GCNConv"
+edge_dim: 2
+input_dim: 32
+hidden_dim: 32
+output_dim: 16
+degree_dim: 32
+tss_dim: 32
+time_dim: 64
+num_layers: 2
+dropout: 0.2
+learning_rate: 0.01
+weight_decay: 5e-4
+train_negative_sampling_ratio: 1
+test_negative_sampling_ratio: 0.01
+span: 10
+
+
+
+
+

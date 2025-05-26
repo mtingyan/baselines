@@ -1,0 +1,29 @@
+dataset: "SBM"
+save_path: "split_data/SBM"
+data_path: None
+num_communities: 3
+initial_nodes: 1000
+intra_community_prob: 0.2
+inter_community_prob: 0.01
+min_prob: 0.01
+max_prob: 0.9
+nodes_per_step: 10
+link_probability: 0.005
+backbone: "GCNConv"
+input_dim: 128
+hidden_dim: 32
+output_dim: 3
+degree_dim: 8
+time_dim: 8
+tss_dim: 8
+num_layers: 2
+dropout: 0.0
+learning_rate: 0.01
+weight_decay: 1e-4
+time_step: 100
+span: 5
+
+
+
+
+

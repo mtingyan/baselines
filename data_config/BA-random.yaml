@@ -1,0 +1,25 @@
+dataset: "BA-random"
+save_path: "split_data/BA-random"
+data_path: None
+initial_nodes: 100
+link_probability: 0.05
+nodes_per_step: 2
+node_label_method: "closeness"
+backbone: "GCNConv"
+input_dim: 32
+hidden_dim: 8
+output_dim: 1
+degree_dim: 8
+time_dim: 8
+tss_dim: 8
+num_layers: 2
+dropout: 0.2
+learning_rate: 0.01
+weight_decay: 1e-4
+time_step: 1000
+span: 10
+
+
+
+
+

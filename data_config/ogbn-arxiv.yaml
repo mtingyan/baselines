@@ -1,0 +1,21 @@
+dataset: "ogbn-arxiv"
+save_path: "split_data/ogbn-arxiv"
+data_path: None
+backbone: "GCNConv"
+input_dim: 128
+hidden_dim: 32
+output_dim: 40
+degree_dim: 32
+tss_dim: 32
+time_dim: 32
+num_layers: 2
+dropout: 0.0
+learning_rate: 0.01
+weight_decay: 5e-4
+span: 5
+
+
+
+
+
+

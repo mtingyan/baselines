@@ -1,0 +1,26 @@
+dataset: "tgbl-review"
+save_path: "split_data/tgbl-review"
+data_path: None
+metric: "mrr"
+backbone: "GCNConv"
+edge_dim: 1
+input_dim: 32
+hidden_dim: 32
+output_dim: 16
+degree_dim: 32
+tss_dim: 64
+time_dim: 32
+num_layers: 2
+degree_bins: 30
+adaptive_rate_gamma: 0.1
+dropout: 0.2
+learning_rate: 0.1
+weight_decay: 5e-4
+train_negative_sampling_ratio: 1
+test_negative_sampling_ratio: 0.01
+span: 10
+edge_threshold_cut: 0.3
+edge_threshold_add: 0.8
+
+
+
